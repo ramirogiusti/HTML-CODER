@@ -1,0 +1,115 @@
+/*
+reset
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#subicono img{
+    height: 90px;
+    width: auto;
+}
+#sale{
+    color: red;
+
+}
+nav div{
+    font-size: 34px;
+    font-style: italic;
+    text-decoration: solid;
+}
+nav{
+    font-size: 34px;
+    text-decoration: solid;
+}
+body{
+    background-color: bisque;
+    /*
+    configuracion para mantener abajo el footer
+    */
+    display: grid;
+    min-height: 100dvh;
+    grid-template-rows: auto 1fr auto;
+
+}
+.nosotros{
+    height: 250 px;
+    width: auto;
+    
+
+}
+.nosotros iframe{
+    height: 500px;
+    width: 500px;
+}
+
+header{
+font-size: large;
+background-color: #ddceb2;
+}
+.contenedorMain{
+    display: flex;
+    font-size: 20px;
+}
+.contenedorVentas{
+    display: flex;
+}
+.contenedorMain img{
+    height: 200px;
+    width: auto;
+}
+.separador{
+    background-image: url(../img/fondo\ divs.jpg);
+    text-decoration: none;
+    color: bisque;
+    text-align: center;
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.categorias{
+    font-size: 20px;
+}
+footer {
+    background-color: #978c77;
+    text-decoration: underline;
+    font-size: 15px;
+ 
+}
+main img{
+    width: auto;
+    height: 500px;
+ 
+}
+
+h1{
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: black;
+    text-decoration: underline;
+}
+h3{
+    text-decoration: underline;
+}
+h4{
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h5{
+    font-size: x-large;
+    text-decoration: underline;
+}
+.redes img{
+    height: 50px;
+    width: auto;
+}
