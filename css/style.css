@@ -10,6 +10,13 @@ reset
 #subicono{
     text-align: center;
 }
+.video {
+
+}
+.contenedorVentas{
+
+}
+
 #subicono img{
     height: 70px;
     width: auto;
@@ -72,6 +79,7 @@ body{
 .nosotros{
     height: 250 px;
     width: auto;
+    font-size: larger;
     
 
 }
@@ -89,14 +97,33 @@ header{
     justify-content: space-between ;
     align-items: center;
 }
-.contenedorMain{
+.contenedorProductos{
     display: flex;
-    font-size: 20px;
+        font-size: 20px;
+        flex-wrap: nowrap;
+        justify-content: center;
 }
-.contenedorVentas{
+.Producto{
+    padding: 10px;
+}
+.Producto img{
+    height: 300px;;
+    width: auto;
+}
+
+.contenedorSkates{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-around;
 }
-.contenedorMain img{
+.contenedorSkatesItem{
+    padding: 10px;
+    border: 20px;
+    border-color: #2c2922;
+}
+.contenedorP img{
     height: 200px;
     width: auto;
 }
@@ -115,13 +142,13 @@ header{
 footer {
     background-color: #8b7c60;
     text-decoration: underline;
-    font-size: 15px;
+    font-size: 20px;
     padding: 20px 0;
  
 }
 main img{
     width: auto;
-    height: 500px;
+    height: 800px;
  
 }
 
@@ -130,7 +157,7 @@ h1{
     font-weight: 400;
     font-style: normal;
     text-align: center;
-    color: black;
+    color: bisque;
     text-decoration: underline;
 }
 h3{
@@ -152,4 +179,19 @@ h5{
 .redes img{
     height: 50px;
     width: auto;
+}
+
+.categorias{
+    display: flex
+;
+    justify-content: space-around;
+    align-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+.eventos{
+    display:flex;
+}
+.evento{
+    font-size: larger;
 }
