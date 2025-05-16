@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="keywords" content="ropa skate, indumentaria surf, tienda skate, tienda surf, skaters, surfers, tablas de skate, tablas de surf, ropa urbana, accesorios de skate, moda streetwear, zapatillas skate">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tienda online de indumentaria y accesorios para skaters y surfers. Encontrá las mejores marcas de ropa urbana, tablas de skate y surf, zapatillas, y más. ¡Estilo y adrenalina en un solo lugar!">
     <title>Brand</title>
     <!--css-->
     <link rel="stylesheet" href="../css/style.css">
@@ -14,14 +17,14 @@
     <link rel="icon" href="../img/ICONO2.png" type="image/png">
 </head>
 <body>
-    <header>
+    <header class="header">
+        <div id="subicono">
+            <a href="../index.html"><img src="../img/subicono.png" alt="main icon"></a>
+        </div>
         <nav>
-            <ul>
+            <ul class="linksH">
                 <!--icono al inicio-->
-                <div id="subicono">
-                    <a href="../index.html"><img src="../img/subicono.png" alt="main icon"></a>
-                    <p>Brand</p>
-                </div>
+
                 <li><a href="Indumentaria.html">indumentaria</a></li>
                 <li><a href="skates.html">skates</a></li>
                 <li><a id="sale" href="#">sale</a></li>
@@ -80,24 +83,28 @@
     </main>
     <br>
     <footer>
+        <div class="footerRow">        
         <div class="redes">
-            <h3>seguinos:</h3>
-            <a target="_blank" href="https://www.instagram.com/?hl=es"><img src="../img/redes/insta.png" alt=""></a>
-            <a target="_blank" href="https://www.youtube.com/?app=desktop&hl=es"><img src="../img/redes/youtube.png" alt=""></a>
-            <a target="_blank" href="https://www.facebook.com/"><img src="../img/redes/face.png" alt=""></a>
-         </div>
-         <br>
+        <h3>seguinos:</h3>
+        <a target="_blank" href="https://www.instagram.com/?hl=es"><img src="../img/redes/insta.png" alt=""></a>
+        <a target="_blank" href="https://www.youtube.com/?app=desktop&hl=es"><img src="../img/redes/youtube.png" alt=""></a>
+        <a target="_blank" href="https://www.facebook.com/"><img src="../img/redes/face.png" alt=""></a>
+     </div>
+     <br>
+        <div class="footerForm">
         <form action="/submit" method="post">
             <h3>suscribite</h3>
             <label for="news">Ingresa tu Email:</label>
             <input type="text" name="email" id="news" placeholder="Email">
             <!--por el momento el enviar, genera error-->
             <input type="submit" value="enviar">
-
-
         </form>
+         </div> 
         <br>
+        <div class="footerCopy">
         <p id="copy">Copyright © 2025 Brand All rights reserved.</p>
+    </div> 
+    </div> 
     </footer>
 </body>
 </html>

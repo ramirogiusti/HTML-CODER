@@ -7,23 +7,57 @@ reset
     box-sizing: border-box;
 
 }
-
+#subicono{
+    text-align: center;
+}
 #subicono img{
-    height: 90px;
+    height: 70px;
     width: auto;
+    transition: all;
+}
+.linksH{
+    list-style: none;
+}
+.linksH li{
+display: inline-block;
+padding: 0 20px;
+}
+.linksH li:hover{
+    transform: scale(1.1);
+}
+.linksH a{
+font-size: 30px;
+color:rgba(65, 53, 49, 0.801);
+text-decoration: none;
+}
+.footerRow{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#subicono img:hover{
+    transform: scale(1.1);
 }
 #sale{
     color: red;
 
 }
 nav div{
-    font-size: 34px;
+    font-size: 60px;
     font-style: italic;
     text-decoration: solid;
 }
 nav{
-    font-size: 34px;
-    text-decoration: solid;
+    font-size: large;
+    background-color: #ddceb2;
+    display: flex;
+    height: 85px;
+    padding: 5px;
+    justify-content: space-between ;
+    align-items: center;
 }
 body{
     background-color: bisque;
@@ -47,8 +81,13 @@ body{
 }
 
 header{
-font-size: large;
-background-color: #ddceb2;
+    font-size: large;
+    background-color: #ddceb2;
+    display: flex;
+    height: 85px;
+    padding: 5px 10%;
+    justify-content: space-between ;
+    align-items: center;
 }
 .contenedorMain{
     display: flex;
@@ -74,9 +113,10 @@ background-color: #ddceb2;
     font-size: 20px;
 }
 footer {
-    background-color: #978c77;
+    background-color: #8b7c60;
     text-decoration: underline;
     font-size: 15px;
+    padding: 20px 0;
  
 }
 main img{
